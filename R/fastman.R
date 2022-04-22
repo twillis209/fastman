@@ -1,3 +1,6 @@
+#' @importFrom grDevices palette
+#' @importFrom graphics abline axis par points strheight strwidth text
+#' @importFrom stats complete.cases median quantile
 fastman <- function(m, chr = "CHR", bp = "BP", p = "P", snp, chrlabs, speedup=TRUE, logp = TRUE, col="matlab", maxP=14, sortchr=TRUE, bybp=FALSE, chrsubset, bprange,
                            highlight, annotateHighlight=FALSE, annotatePval, colAbovePval=FALSE, col2="greys", annotateTop=TRUE, annotationWinMb, annotateN, annotationCol, annotationAngle=45, 
                            baseline=NULL, suggestiveline, genomewideline, cex=0.4, cex.text=0.4, cex.axis=0.6, xlab, ylab, xlim, ylim, ...) {
