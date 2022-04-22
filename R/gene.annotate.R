@@ -1,3 +1,4 @@
+#' @export
 gene.annotate <- function(data, genelist, chr = "CHR", bp = "BP", sep="|", border=0) {
 
 # data could be the data frame from an gwas result assoc file

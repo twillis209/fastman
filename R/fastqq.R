@@ -1,4 +1,5 @@
 #' @importFrom stats ppoints qchisq 
+#' @export
 fastqq <- function(p, q=1, logtransform=TRUE, compare=FALSE, speedup=TRUE, lambda=TRUE, fix_zero=TRUE, cex=0.6, cex.axis=0.9, xlab, ylab, ...) {
 
 # use: source("fastqq.R")
